@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
 import { Button, makeStyles } from '@material-ui/core';
-import Page from 'src/components/Page';
 import SignaturePad from 'react-signature-canvas';
 import Popup from 'reactjs-popup';
 
-import 'src/views/Facilities/Pharmacy_Module/SigCanvas.css';
+import './SigCanvas.css';
 
 const useStyles = makeStyles(theme => ({
   root: {
