@@ -47,6 +47,14 @@ const DigitalSignature = () => {
         )}
       </Popup>
 
+
+
+
+
+
+
+
+
       {imageURL ? (
         <img src ={ imageURL } alt="my signature" style={{display:'block', 
         
