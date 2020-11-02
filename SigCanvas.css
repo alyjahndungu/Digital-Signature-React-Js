@@ -1,0 +1,7 @@
+.signatureCanvas {
+    border: 2px solid #e91e63;
+    width: 100%;
+    min-height: 320px;
+    background-color:#fafafa;
+    border-radius: 14px;
+}
