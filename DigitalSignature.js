@@ -40,8 +40,10 @@ const DigitalSignature = () => {
                 className: 'signatureCanvas'
               }}
             />
+
             <Button onClick={close}>close</Button>
             <Button onClick={clear}>clear</Button>
+            
             <Button onClick={save}>save</Button>
           </>
         )}
