@@ -24,7 +24,6 @@ const DigitalSignature = () => {
   const clear = () => sigCanvas.current.clear();
 
   const save = () => setImageURL(sigCanvas.current.getTrimmedCanvas().toDataURL("image/png"));
-
   return (
     <Page className={classes.root}>
       <Popup
@@ -42,8 +41,7 @@ const DigitalSignature = () => {
             />
 
             <Button onClick={close}>close</Button>
-            <Button onClick={clear}>clear</Button>
-            
+            <Button onClick={clear}>clear</Button>          
             <Button onClick={save}>save</Button>
           </>
         )}
