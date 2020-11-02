@@ -24,7 +24,7 @@ const DigitalSignature = () => {
 
   const save = () => setImageURL(sigCanvas.current.getTrimmedCanvas().toDataURL("image/png"));
   return (
-    <Page className={classes.root}>
+    <React.Fragment className={classes.root}>
       <Popup
         modal
         trigger={<Button>Open SignaturePad</Button>}
@@ -51,7 +51,7 @@ const DigitalSignature = () => {
         
       margin: '0 auto', border: '1px solid black', width: '150px'}} /> 
       ) : null}
-    </Page>
+    </React.Fragment>
   );
 };
 export default DigitalSignature;
